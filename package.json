@@ -1,0 +1,26 @@
+{
+  "name": "seminars",
+  "version": "1.0.0",
+  "description": "Необходимо развернуть локально `json-server` и загрузить в него данные **seminars**. Используйте любые удобные технологии, но обязательно с использованием React для реализации следующих функций:",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "json-server --watch db.json",
+    "start": "vite",
+    "build": "tsc && vite build",
+    "test": "vitest --passWithNoTests"
+  },
+  "author": "Panina",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "jsdom": "22.1.0",
+    "typescript": "5.0.4",
+    "vite": "4.3.9"
+  },
+  "dependencies": {
+    "classnames": "2.3.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
