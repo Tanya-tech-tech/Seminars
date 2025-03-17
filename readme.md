@@ -47,7 +47,7 @@ json-server -w db.json
 
 # Адрес нашего сервера
 
-# const SERVER_URL = 'http://localhost:3000/seminars'
+# const SERVER_URL = 'http://localhost:3000/seminars' проверка связи
 
 Структура проекта
 
